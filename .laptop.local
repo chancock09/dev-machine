@@ -1,0 +1,26 @@
+brew install amazon-ecs-cli
+brew install awscli
+brew install mysql
+brew install redis
+
+brew tap caskroom/fonts && brew cask install font-iosevka
+
+brew cask install 1password
+brew cask install alfred
+brew cask install dash
+brew cask install docker
+brew cask install evernote
+brew cask install fantastical
+brew cask install firefox
+brew cask install flux
+brew cask install font-iosevka
+brew cask install github-desktop
+brew cask install google-chrome
+brew cask install google-drive
+brew cask install insomnia
+brew cask install iterm2
+brew cask install sequel-pro
+brew cask install slack
+brew cask install spectacle
+brew cask install sublime-text
+brew cask install things

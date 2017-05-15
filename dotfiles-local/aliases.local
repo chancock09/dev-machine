@@ -1,0 +1,9 @@
+# Docker
+
+alias dc='docker-compose'
+alias dcd='docker-compose -f docker-compose.dev.yml'
+
+# Git
+
+alias g='git'
+alias gm='git checkout master'
