@@ -1,0 +1,4 @@
+set nospell
+
+setlocal nonumber
+setlocal colorcolumn=

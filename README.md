@@ -23,6 +23,9 @@ git clone git://github.com/thoughtbot/dotfiles.git ~/dotfiles
 brew tap thoughtbot/formulae
 env RCRC=$HOME/dotfiles/rcrc rcup
 
+# Oh My Zsh (Set the avit theme in .zsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 # Setup /dev directory
 mkdir ~/dev
 git clone https://github.com/chancock09/dev-machine.git ~/dev
