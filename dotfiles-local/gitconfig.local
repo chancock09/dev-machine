@@ -1,9 +1,10 @@
 [alias]
+  b = branch
   ca = commit --amend
   clean = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
   d = diff
   l = log --decorate --graph --oneline
-  m = git checkout master; git pull; gbd
+  lm = l master..
   
 [color]
   ui = auto
