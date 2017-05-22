@@ -1,7 +1,6 @@
 [alias]
   b = branch
   ca = commit --amend
-  clean = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
   d = diff
   l = log --decorate --graph --oneline
   lm = l master..
