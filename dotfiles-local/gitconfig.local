@@ -2,8 +2,17 @@
   ca = commit --amend
   clean = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
   d = diff
-  l = log --pretty=colored
+  l = log --decorate --graph --oneline
   m = git checkout master; git pull; gbd
+  
+[color]
+  ui = auto
+
+[core]
+  editor = "subl -w"
+
+[credential]
+  helper osxkeychain
 
 [pretty]
   colored = format:%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
@@ -11,7 +20,3 @@
 [user]
   name = Chris Hancock
   email = chancock09@gmail.com
-
-# https://help.github.com/articles/caching-your-github-password-in-git/
-[credential]
-  helper osxkeychain
