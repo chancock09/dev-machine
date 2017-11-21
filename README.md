@@ -76,6 +76,12 @@ Open Dash and go to Preferences > Integration > Alfred
 
 Run the file in `apple-configs/`.  Also auto-hide top dock.
 
+## Update Dotfiles
+
+```
+env RCRC=$HOME/dotfiles/rcrc rcup && . ~/.bash_profile
+```
+
 ## Shoutouts
 
 [Thoughtbot](https://github.com/thoughtbot) makes amazing software.
