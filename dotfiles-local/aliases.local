@@ -9,3 +9,7 @@ alias g='git'
 alias gm='git checkout master'
 alias gmc'gm; git pull; git clean'
 alias git-clean="!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
+
+# Python
+
+alias python='python3'

@@ -4,7 +4,8 @@
   d = diff
   l = log --decorate --graph --oneline
   lm = l master..
-  
+  update = !git aa && git ca && git pf
+
 [color]
   ui = auto
 
@@ -16,7 +17,7 @@
 
 [pretty]
   colored = format:%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
-  
+
 [user]
   name = Chris Hancock
   email = chancock09@gmail.com
